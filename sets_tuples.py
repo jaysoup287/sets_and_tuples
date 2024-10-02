@@ -125,11 +125,14 @@ and you may call me V."""
 
 
 # Convert the text to a tuple of characters
-
+text_tuple = tuple(text)
 
 
 
 # Tuple to store the target characters
+occurance = tuple1.count('v')
+occurance2 = tuple1.count('V')
+
 
 
 
@@ -137,12 +140,11 @@ and you may call me V."""
 
 
 # Count occurrences of 'v' or 'V' by filtering the text_tuple
-
-
+result = (occurance + occurance2)
 
 
 # Output the result
-
+print(result)
 
 
 
